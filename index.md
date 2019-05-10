@@ -28,6 +28,9 @@ pip install --user --upgrade .
 Note: In order to report current state, installing nmstate as a non-root user
 should be enough. For change support, install the package as root.
 
+For installing a stable release or other installation methods, please refer to
+the [Nmstate Installation Guide](./install.md).
+
 ### Dependencies
 In order to support specific capabilities, additional packages are required:
 - OpenVSwitch support through the NM provider requires `NetworkManager-ovs`.
